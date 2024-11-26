@@ -1,0 +1,66 @@
+body {
+background-image: url('Fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.formulario-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2c2c2c; 
+    border: 1px solid #444; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: #f9f9f9; 
+}
+
+.formulario-container h1 {
+    text-align: center;
+    color: #f9f9f9; 
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+#registroForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#registroForm label {
+    font-size: 14px;
+    color: #f1f1f1; 
+}
+
+#registroForm input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #555; 
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #444; 
+    color: #f9f9f9; 
+}
+
+#registroForm input:focus {
+    border-color: #007BFF; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#registroForm button {
+    background-color: #007BFF; 
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#registroForm button:hover {
+    background-color: #0056b3;
+}
